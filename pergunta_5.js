@@ -1,7 +1,7 @@
 stringInvertida = "";
 let string = prompt("Digite uma palavra ou frase para ser invertida:");
 
-for (let i = 0; i < string.length; i++) {
+for (i in string) {
     stringInvertida = string[i] + stringInvertida;
 }
 
